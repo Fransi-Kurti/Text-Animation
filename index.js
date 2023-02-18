@@ -17,6 +17,9 @@ function updateNewWord(){
         catsAreAmaizingIndex++
         characterIndex = 0;
     }
-    setTimeout(updateNewWord, 400);
+    if(catsAreAmaizingIndex === catsAreAmaizing.length){
+        catsAreAmaizingIndex = 0;
+    }
+    setTimeout(updateNewWord, 300);
 }
 
