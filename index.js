@@ -20,6 +20,6 @@ function updateNewWord(){
     if(catsAreAmaizingIndex === catsAreAmaizing.length){
         catsAreAmaizingIndex = 0;
     }
-    setTimeout(updateNewWord, 300);
+    setTimeout(updateNewWord, 400);
 }
 
