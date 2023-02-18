@@ -13,5 +13,7 @@ body{
     text-align: center;
     font-size: 4rem;
     color: purple;
+    align-items: center;
+    text-shadow: 0 2px 4px rgba(0,0,0,.5);
 }
 
